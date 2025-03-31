@@ -12,4 +12,5 @@ public interface BoardMapper {
     BoardDTO selectByBno(int bno);
     void deleteByBno(int bno);
     void updateByBno(BoardDTO board);
+    void updateReadCount(int bno);
 }
